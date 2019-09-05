@@ -1,0 +1,29 @@
+To setup project:
+
+“git clone <CLOUD_REPOSITORY_CLONE_URL>” — To create a project directory for the cloud repository that has been created
+
+For Existing project:
+
+“git init” — To create all the hidden files of git to track our file changes and more
+
+“git remote add origin <CLOUD_REPOSITORY_CLONE_URL>” — To add the cloud repository Git URL to the memory of git, so that we can call it later by the name of “origin”
+
+Status:
+
+“git status” — To check the current branch and all the files modified
+
+Branch:
+
+“git checkout -b <NEW_BRANCH_NAME>” — To create a new branch with your unique name
+
+To switch to existing branch:
+
+“git checkout <EXISTING_BRANCH_NAME>” — To let the git concentrate on a particular branch (already existing branch)
+
+Pushing:
+
+“git add .” — To add all the files to git tracking list
+
+“git commit -m “<YOUR_COMMIT_MESSAGE>”” — To save all the file changes to the git memory (simply called commit)
+
+“git push origin <YOUR_BRANCH_NAME>” — To push all the commits in your branch to cloud repository with the same branch name
