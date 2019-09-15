@@ -1,0 +1,22 @@
+IDE must be JavaEE -- 
+preferences - server - Runtime Environments - Apache Tomcat v9.0
+
+if now still can't connect to server
+go to "servers" in the bottom of the workspace - right click the server which we use - switch location - apply.
+double click the server which we use - server location - change to second one - Use Tomcat Installation 
+(takes control of Tomcat installation)
+
+<body>
+<%
+out.println(" Hello Tomcat! ");
+%>
+</center>
+Time is 
+<%=new java.util.Date()%>
+</center>
+</body>
+
+create a test.jsp file in WebContent
+
+finished and run correct
+
