@@ -1,3 +1,8 @@
+Tomcat on mac
+path: Tomcat/bin
+Start tomcat: ./startup.sh
+stop tomcat: ./shutdown.sh
+
 IDE must be JavaEE -- 
 preferences - server - Runtime Environments - Apache Tomcat v9.0
 
