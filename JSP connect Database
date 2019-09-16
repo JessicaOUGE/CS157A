@@ -28,3 +28,6 @@ create a test.jsp file in WebContent
 
 finished and run correct
 
+on mac 相对路径和绝对路径
+绝对路径
+http://localhost:8080/cs157a.jsp
