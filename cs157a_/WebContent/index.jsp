@@ -1,7 +1,6 @@
 <%@ page import="java.sql.*"%>
 <html>
   <head>
-  <base href="http://localhost:8080/cs157a/">
     <title>JDBC Connection example</title>
     </head>
   <body>

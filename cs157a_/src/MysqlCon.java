@@ -1,11 +1,10 @@
-package com.mysql5.cj.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class cs157a {
+public class MysqlCon {
 	public static void main(String[] args) {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
