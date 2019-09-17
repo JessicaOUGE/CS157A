@@ -1,0 +1,31 @@
+1. entity
+E/R Diagrams
+instance of an entity set
+
+2.relationships
+for example: Bars sells Beers, Drinkers like Beers, Bars frequents Drinkers. (can create 6-7 tables)
+how many tables depends on -- arrow head... relationshps
+instance of a relationship
+a relationship R between sets E and F, relates some entities in E to some entities in F.
+such as: Students take a Course, get (grade-relationship)
+
+relationship set: means relationship is a table, 
+                  the value of the relationship                 
+such as: Sells
+Bar           Beer
+one           beer1
+one           beer2
+one           beer3
+
+(important) Multiplicity of a Binary Relationship
+many to many (0-many choose 0-many)
+one to many  (0-1 choose 0-many)
+one to one   (0-1 choose 0-1)
+
+open arrows express exictly one
+such as: manfs only have one best-seller is Beers.
+
+3.attribute
+primite key is unic
+
+
