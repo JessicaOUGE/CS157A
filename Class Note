@@ -61,6 +61,7 @@ database schemas: set relations
 
 single quote '' means String value
 TIME 'hh.mm.ss' -- followed format
+DATE ’yyyy-mm-dd’
 
 a table can have one primavite key, and can't be NULL
 but can have many UNIQUE key, and can be NULL
