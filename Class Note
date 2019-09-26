@@ -23,10 +23,75 @@ many to many (0-many choose 0-many)
 one to many  (0-1 choose 0-many)
 one to one   (0-1 choose 0-1)
 
-open arrows express exictly one
+open arrows express exictly one (another set can be 0 to many)
 such as: manfs only have one best-seller is Beers.
 
 3.attribute
 primite key is unic
+
+how to convert an E/R diagram to a relational schema: Ideas -> ER Design ->Relational Schema ->Relational DBMS
+
+9/19/2019
+recall: how to indentify relationships: given two set, use sell
+
+roles in relationships:
+
+relationship to itself
+such as: preReq requirement courses, courses requirer preReq
+
+roles: 
+such as: Drinkers have husband and wife which are married
+
+parallel relationships:
+such as: students take coursees
+          students TA courses
+          
+multiple relationships:
+for example: 3-way relationship
+             for example: 
+                          one person only drink one beer in one bar.
+                          one person only buy beef in Costco.
+             4-way relationship
+             for example:
+                          
+A relation is a table
+schemas: relation name and attribute list
+database: collection of relations
+database schemas: set relations
+
+single quote '' means String value
+TIME 'hh.mm.ss' -- followed format
+DATE ’yyyy-mm-dd’
+
+a table can have one primavite key, and can't be NULL
+but can have many UNIQUE key, and can be NULL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
