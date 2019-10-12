@@ -27,3 +27,8 @@ Pushing:
 “git commit -m “<YOUR_COMMIT_MESSAGE>”” — To save all the file changes to the git memory (simply called commit)
 
 “git push origin <YOUR_BRANCH_NAME>” — To push all the commits in your branch to cloud repository with the same branch name
+
+
+
+How to Change the MySQL root Password in Linux or macOS via Command Line
+https://coolestguidesontheplanet.com/how-to-change-the-mysql-root-password/v
